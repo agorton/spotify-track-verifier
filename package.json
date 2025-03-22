@@ -5,11 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "folder-compare": "node folder-compare.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "music-metadata": "^10.7.0",
+    "node-id3": "^0.2.6",
     "spotify-web-api-node": "^5.0.2"
   }
 }
